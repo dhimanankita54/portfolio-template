@@ -3,11 +3,11 @@
 ## A clean, beautiful and responsive react portfolio template for Developers!
 
 
-<p align="center">
+<!-- <p align="center">
   <kbd>
 <img src="https://github.com/kaustubhai/portfolio-template/blob/master/public/portfolio-example.gif?raw=true"></img>
   </kbd>
-</p>
+</p> -->
 
 
 Just change `src/profile.js` to get your personal portfolio. Feel free to use it as-is or customize it as much as you want.
@@ -36,7 +36,7 @@ If you created something awesome and want to contribute then feel free to open a
 ✔️ Contact Form\
 ✔️ Social Profile\
 
-To view a live example, **[click here](https://kaustubhai.netlify.app/)**.
+To view a live example, **[click here](https://ankita-dhiman-portfolio.netlify.app/)**.
 
 
 ## Getting Started
@@ -58,7 +58,7 @@ From your command line, clone and run developerFolio:
 
 ```bash
 # Clone this repository
-$ git clone https://github.com/kaustubhai/portfolio-template.git
+$ git clone https://github.com/dhimanankita54/portfolio-template.git
 
 # Go into the repository
 $ cd portfolio-template
