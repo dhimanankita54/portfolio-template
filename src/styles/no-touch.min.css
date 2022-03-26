@@ -7,13 +7,14 @@ body {
   background-color: #fff;
 }
 html.dark-mode {
-  background-color: #000;
+  background-color: #fff;
 }
 button:focus {
   outline: 1px solid #777 !important;
 }
 .lead {
   font-weight: 400;
+  margin: 20px 40px;
 }
 .bg-danger {
   background-color: var(--primary-color) !important;
@@ -30,7 +31,7 @@ button:focus {
 .Header h1 {
   color: #000;
   text-align: center;
-  font-size: 5.5rem;
+  font-size: 70px;
   position: absolute;
 }
 .Header p {
@@ -55,7 +56,7 @@ button:focus {
   font-size: x-large;
 }
 .dark-mode {
-  filter: invert(1) hue-rotate(180deg);
+  filter: invert(1) hue-rotate(180deg) ;
   -webkit-filter: invert(1) hue-rotate(180deg);
   -moz-filter: invert(1) hue-rotate(180deg);
 }
@@ -70,7 +71,7 @@ button:focus {
   background: #fff;
   padding: 5%;
   margin: 10% auto;
-  border-bottom: solid 1px #777 !important;
+  /* border-bottom: solid 1px #777 !important; */
 }
 .effect2:after,
 .effect2:before {
@@ -103,14 +104,21 @@ button:focus {
 }
 .Photo {
   background-color: #fff;
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
+  border-radius:5%;
+  width: 260px;
+  height: 350px;
 }
+
 .Photo.inverse-dark {
   background-color: #000;
 }
+.about{
+  margin-top: 70px;
+}
 .about-text {
-  width: 80%;
+  width: 100%;
   padding: 2%;
 }
 .red-line {
@@ -126,12 +134,18 @@ button:focus {
 }
 .skill__square {
   display: inline;
-  margin: 15px 0 !important;
+  margin-top: 45px!important;
+  display: flex;
 }
 .skill__square i {
   font-size: 50px !important;
   color: #777 !important;
   height: 20px !important;
+}
+.skill__square img{
+  font-size: 50px !important;
+  color: #777 !important;
+  height: 50px !important;
 }
 .skill__square svg {
   width: 35px !important;
@@ -147,11 +161,12 @@ button:focus {
   padding-top: 5px;
 }
 .skill__square i:hover,
-.skill__square svg:hover {
-  color: #ff4753 !important;
+.skill__square svg:hover,
+.skill__square img:hover{
+  color: #FB4F93 !important;
 }
 .third {
-  width: 75%;
+  width: 90%;
   margin: 10% auto;
   align-items: center;
   padding: 3%;
@@ -159,7 +174,10 @@ button:focus {
 }
 .project-card {
   padding: 15px;
-  margin-top: 15px;
+  margin-left: 10%;
+  /* height: 550px; */
+  /* margin: auto; */
+  margin-top: 3%;
   box-shadow: rgba(17, 12, 46, 0.15) 0 48px 100px 0;
   border: 0.5px solid #eee;
 }
@@ -178,8 +196,32 @@ button:focus {
   font-size: 1rem;
   margin-left: 3%;
 }
+.blog-card {
+  padding: 15px;
+  /* margin-left: 10%; */
+  /* height: 550px; */
+  margin: auto;
+  margin-top: 3%;
+  box-shadow: rgba(17, 12, 46, 0.15) 0 48px 100px 0;
+  border: 0.5px solid #eee;
+}
+.blog-card h2 {
+  color: var(--primary-color);
+  margin-top: 10px;
+  margin-left: 3%;
+  font-weight: 500;
+}
+.blog-card h2:hover {
+  color: var(--hover-color);
+  text-decoration: none;
+}
+.blog-card h3 {
+  text-align: left;
+  font-size: 1rem;
+  margin-left: 3%;
+}
 .image-project {
-  height: 300px;
+  height: 200px;
   width: auto;
   margin-bottom: 20px;
   overflow: hidden;
@@ -199,9 +241,43 @@ button:focus {
 .image-project:hover .img-pro {
   transform: scale(1.2);
 }
+.view_btn{
+  padding: 10px 15px;
+  font-size: 1rem;
+  border-radius: 5px;
+  color: #fff;
+  background-color: var(--primary-color);
+  box-shadow: none;
+  outline: 0;
+  border: none;
+  margin-top: 20px;
+  margin-left: 10px;
+}
+.view_btn:hover {
+  background-color: var(--hover-color);
+  
+}
+.send_btn{
+  padding: 10px 15px;
+  font-size: 1rem;
+  border-radius: 5px;
+  color: #fff;
+  background-color: var(--primary-color);
+  box-shadow: none;
+  outline: 0;
+  border: none;
+  margin-top: 8px;
+  /* margin-left: 2px; */
+}
+.send_btn:hover, .send_btn:focus{
+  background-color: var(--hover-color);
+  /* width: 8%; */
+  height: 45px;
+}
 .pp-head {
   text-align: center;
 }
+
 .pp-head-line {
   box-sizing: border-box;
   width: 30%;
@@ -228,7 +304,7 @@ button:focus {
   display: block;
   margin: 3rem 3rem 0 3rem;
   background-color: #fff;
-  max-height: 80vh;
+  max-height: 100vh;
 }
 .git-head-div {
   box-sizing: border-box;
@@ -242,10 +318,12 @@ button:focus {
 }
 .git-cont {
   display: inline-block;
+  
 }
 .half {
   display: inline-block;
   vertical-align: top;
+  
 }
 .half form input,
 textarea {
@@ -304,20 +382,22 @@ textarea:focus {
   text-decoration: none;
   color: var(--primary-color);
   transition: 0.5;
+  margin: 5px;
 }
 .git-cont .fab:hover {
   color: var(--hover-color);
 }
 .git-cont .fas {
   vertical-align: bottom;
-  font-size: 40px;
-  height: 30px;
-  margin: 25px;
+  font-size: 20px;
+  height: 2px;
+  margin: 5px;
   text-align: center;
   text-decoration: none;
   color: #000;
   transition: 0.5;
 }
+
 .navbar {
   width: 100%;
   position: fixed;
@@ -344,11 +424,11 @@ textarea:focus {
 }
 .gtp {
   position: fixed;
-  left: 92%;
-  height: 150px;
-  top: 82%;
-  z-index: 1002;
-  cursor: crosshair;
+  left: 91%;
+  height: 70px;
+  top: 89%;
+  z-index: 100;
+  cursor: pointer;
 }
 .see {
   background-color: var(--primary-color);
@@ -435,7 +515,7 @@ input:checked + .slider:before {
   position: relative;
   top: 10%;
   width: 12em;
-  margin: 0 auto;
+  margin: 20px auto;
   border-right: 2px solid rgba(25, 25, 25, 0.75);
   font-size: 180%;
   text-align: center;
@@ -488,11 +568,17 @@ input:checked + .slider:before {
     font-size: 2.5rem;
   }
   .line-1 {
+    margin-top: 10px;
     font-size: 80%;
     top: 5.5%;
   }
   .underline {
     text-decoration-color: (0, 0, 0, 0.1);
+  }
+  
+  .About-title-box{
+    text-align: center;
+    width: 100%;
   }
   .about-text {
     width: 100%;
@@ -512,6 +598,11 @@ input:checked + .slider:before {
   }
   .project-card {
     width: 100% !important;
+    height: auto;
+  }
+  .blog-card {
+    width: 100% !important;
+    height: auto;
   }
   .image-project {
     width: 100% !important;
@@ -543,9 +634,9 @@ input:checked + .slider:before {
     display: none;
   }
   .gtp {
-    left: 80%;
+    left: 82%;
     top: 87%;
-    height: 75px;
+    height: 70px;
   }
   .Copy {
     display: none;
@@ -565,4 +656,5 @@ input:checked + .slider:before {
     margin-left: auto;
     margin-right: auto;
   }
+  
 }

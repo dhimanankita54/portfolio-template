@@ -9,7 +9,7 @@ const animation = {
 };
 // Change your display name on tha landing display
 const header = {
-  name: "a Human",
+  name: "Ankita Dhiman",
 };
 const background = {
   // Options: Snow or Particle
@@ -20,10 +20,11 @@ const background = {
 const section2title = "About Me";
 const about = {
   paragraph:
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mauris nunc congue nisi vitae suscipit tellus mauris a diam. ",
+    "Analytical and creative team player with a strong background in designing, planning and maintaining software programs and desirous to hone my technical skills and expertise along with designing creative software and products.",
 };
 // Edit your skill and the percentage you know about it
 // To Add a skill, copy any one below and paste it after the last comma
+const sectionskill = "Skills"
 const skillsBar = [
   {
     name: "HTML5",
@@ -41,134 +42,136 @@ const skillsBar = [
     // svg: '',
     faClass: "fab fa-js",
   },
+  // {
+  //   name: "SASS",
+  //   // svg: '',
+  //   faClass: "fab fa-sass",
+  // },
   {
-    name: "SASS",
+    name: "Mongodb",
     // svg: '',
-    faClass: "fab fa-sass",
+    faClass: "fas fa-database",
   },
   {
     name: "Node",
     // svg: '',
     faClass: "fab fa-node",
   },
+  // {
+  //   name: "Express",
+  //   // svg: 'svg xmlns="http://www.w3.org/2000/svg" width="100" height="57" stroke="#000" stroke-linecap="round" stroke-linejoin="round" fill="#fff" fill-rule="evenodd"',
+  //   faClass: "fab fa-expressjs",
+  // },
   {
-    name: "Python",
+    name: "React",
     // svg: '',
-    faClass: "fab fa-python",
+    faClass: "fab fa-react",
   },
-  {
-    name: "Java",
-    // svg: '',
-    faClass: "fab fa-java",
-  },
-  {
-    name: "PHP",
-    // svg: '',
-    faClass: "fab fa-php",
-  },
-  {
-    name: "Database",
-    // svg: '',
-    faClass: "fas fa-database",
-  },
-  {
-    name: "AWS",
-    // svg: '',
-    faClass: "fab fa-aws",
-  },
+  // {
+  //   name: "Github",
+  //   // svg: '',
+  //   faClass: "fab fa-github",
+  // },
+ 
+  // {
+  //   name: "AWS",
+  //   // svg: '',
+  //   faClass: "fab fa-aws",
+  // },
 ];
 // Edit your projects, its name, your skills used to make it, and the url.
 // You can omit freely anything if you dont have it
 // To Add a Project, copy any one below and paste it after the last comma and increment the id's project number
-const section3Title = "Past Projects";
+const section3Title = "Projects";
 const projects = [
   {
     // Add image in './styles/images.css' in #project1
     id: "project1",
-    name: "Project 1",
+    name: "KIMAYE",
+    des: "Kimaye is a global fruit brand consistently delivering the safest and high quality fruits at doorstep. Provides fruits which earns Kimaye badge.",
     skills: ["HTML, CSS, JS"],
-    url: "https://github.com/kaustubhai",
+    view: "https://kimaye-clone.netlify.app/",
+    git: "https://github.com/dhimanankita54/Kimaye"
   },
   {
     // Add image in './styles/images.css' in #project2
     id: "project2",
-    name: "Project 2",
-    skills: ["HTML, CSS, JS"],
-    url: "https://github.com/kaustubhai",
+    name: "COURSERA",
+    des: "Coursera partners with universities and companies to bring job-relevant online learning to individuals and organizations worldwide. ",
+    skills: ["HTML, CSS, JS, API, Mongodb, Express"],
+    view: "https://courseraclone-backend.herokuapp.com/",
+    git: "https://github.com/dhimanankita54/coursera-backend"
   },
   {
     // Add image in './styles/images.css' in #project3
     id: "project3",
-    name: "Project 3",
-    skills: ["HTML, CSS, JS"],
-    url: "https://github.com/kaustubhai",
+    name: "IMDb",
+    des:"IMDb is an online database of information about films, TV series and streaming content – including cast and biographies, ratings and critical reviews.",
+    skills: ["HTML, CSS, JS, React"],
+    git: "https://github.com/dhimanankita54/IMDB-Clone",
+    view: "https://imdb-cloned.netlify.app/"
   },
   {
-    // Add image in './styles/images.css' in #project4
+    // Add image in './styles/images.css' in #project3
     id: "project4",
-    name: "Project 4",
-    skills: ["HTML, CSS, JS"],
-    url: "https://github.com/kaustubhai",
-  },
-  {
-    // Add image in './styles/images.css' in #project5
-    id: "project5",
-    name: "Project 5",
-    skills: ["HTML, CSS, JS"],
-    url: "https://github.com/kaustubhai",
-  },
-  {
-    // Add image in './styles/images.css' in #project6
-    id: "project6",
-    name: "Project 6",
-    skills: ["HTML, CSS, JS"],
-    url: "https://github.com/kaustubhai",
+    name: "Imgur",
+    des:"Imgur is an American online image sharing and image hosting service with a focus on social gossip.  The service has hosted viral images and memes, particularly those posted on Reddit.",
+    skills: ["HTML, CSS, Vanilla JS"],
+    git: "https://github.com/dhimanankita54/Imgur",
+    view: "https://imgur-mini-app.netlify.app"
   },
 ];
 // Edit your Miscellaneous Activities, its name and the url.
 // You can omit freely anything if you dont have it
 // To Add a Activity, copy any one below and paste it after the last comma and increment the id's Miscellaneous number
-const section4Title = "Miscellaneous";
+const section4Title = "Blogs";
 const miscellaneous = [
   {
     // Add image in './styles/images.css' in #misc1
     id: "misc1",
-    name: "Miscellaneous 1",
-    url: "https://github.com/kaustubhai",
+    name: "KIMAYE-CLONE",
+    url: "https://dhimanankita54.hashnode.dev/kimaye-clone",
   },
   {
     // Add image in './styles/images.css' in #misc2
     id: "misc2",
-    name: "Miscellaneous 2",
-    url: "https://github.com/kaustubhai",
+    name: "COURSERA-BACKEND",
+    url: "https://medium.com/@dhimanankita54/coursera-clone-with-backend-80fe96e0176a",
   },
   {
     // Add image in './styles/images.css' in #misc3
     id: "misc3",
-    name: "Miscellaneous 3",
-    url: "https://github.com/kaustubhai",
+    name: "IMDb- CLONE",
+    url: "https://medium.com/@dhimanankita54/imdb-clone-228074bacacc", 
   },
 ];
 // Contact form text, and Formspree link(to send a submit contact through their API as in contact.js)
 // To get your own jotform link, go to https://formspree.io/
 // If you hacve the link already, paste it in the contactUrl below
-const section5Title = "Get in Touch";
+const section5Title = "Contact me";
 const contact = {
   pitch:
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mauris nunc congue nisi vitae.",
-  copyright: "Kaustubh Mishra",
-  contactUrl: "",
+    "Whether you want to get in touch, talk about a project collaboration, or just say hi, I'd love to hear from you. Simply fill the from and send me an email.",
+  copyright: "Ankita Dhiman",
+  contactUrl: "https://formspree.io/f/mayvoqga",
 };
 // Paste your respective social media links. You can omit any if you dont have it
 // Upload your resume in your drive, get the shaareable link and paste it in the resume section
 const social = {
-  github: "https://github.com",
-  facebook: "https://facebook.com",
+  github: "https://github.com/dhimanankita54",
+  medium: "https://medium.com/@dhimanankita54",
   // twitter: "https://twitter.com",
-  instagram: "https://instagram.com",
-  linkedin: "https://linkedin.com",
-  resume: "https://novoresume.com/",
+  // instagram: "https://instagram.com",
+  linkedin: "https://www.linkedin.com/in/ankita-dhiman-479649202",
+  resume: "https://drive.google.com/file/d/1ITewy2Hzf5TspMgsMq-x-neup5nEVdHH/view?usp=sharing",
+  phone: "9599811925",
+  mail: "dhimanankita54@gmail.com"
 };
+const username = {
+  github: "@dhimanankita54",
+  linkedin: "Ankita Dhiman",
+  medium: "@dhimanankita54"
+}
 // Dont change anything here
 export {
   animation,
@@ -180,8 +183,10 @@ export {
   miscellaneous,
   contact,
   social,
+  username,
   section2title,
   section3Title,
   section4Title,
   section5Title,
+  sectionskill,
 };

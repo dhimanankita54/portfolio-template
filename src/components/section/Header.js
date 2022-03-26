@@ -31,14 +31,14 @@ const Header = () => {
         <div>
             <div className="Header">
                 <h1>{ `I'm ${header.name}` }</h1>
-            <p className="line-1 anim-typewriter">and this is my portfolio... </p>
+            <p className="line-1 anim-typewriter">Full Stack Web Developer </p>
             <label className="switch">
                 <input id="mode-switch" onClick={e => toggleDarkMode(e)} type="checkbox"/>
                 <span className="slider round"></span>
             </label>
             <HeaderButton/>
             </div>
-            <img id="not-dark" onClick={scrollTo} alt="Contact Me" title="Contact Me" className="gtp" src="profile.png"></img>
+            <img id="not-dark" onClick={scrollTo} alt="Scroll down" title="Contact Me" className="gtp" src="https://cdn-icons-png.flaticon.com/128/4721/4721784.png"></img>
         </div>
     )
     

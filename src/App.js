@@ -7,6 +7,7 @@ import Contact from "./components/section/Contact";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { animation } from "./profile";
+import ContactPage from "./components/section/Contactform";
 
 function App() {
   useEffect(() => {
@@ -25,6 +26,7 @@ function App() {
       <About />
       <Works />
       <Contact />
+      {/* <ContactPage /> */}
     </div>
   );
 }

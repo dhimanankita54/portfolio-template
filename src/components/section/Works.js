@@ -1,5 +1,6 @@
 import React from 'react'
 import Project from '../layouts/Project'
+import Blog from '../layouts/Blogs'
 import { projects, miscellaneous, section3Title, section4Title } from '../../profile'
 
 const Works = () => {
@@ -13,7 +14,7 @@ const Works = () => {
                 </>
                 <div className="row">
                 {projects && projects.map((x) => 
-                <Project key={x.id} id={x.id} url={x.url} name={x.name} skills={x.skills}/>
+                <Project key={x.id} id={x.id} url={x.url} name={x.name} des={x.des} skills={x.skills} view={x.view} git={x.git}/>
                 )}
                 </div>
             </div>
@@ -26,7 +27,7 @@ const Works = () => {
                 </>
                 <div className="row">
                     {miscellaneous && miscellaneous.map((x) => 
-                    <Project key={x.id} id={x.id} url={x.url} name={x.name} />
+                    <Blog key={x.id} id={x.id} url={x.url} name={x.name} />
                     )}
                 </div>
             </div>
