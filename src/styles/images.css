@@ -20,6 +20,10 @@
     background-image: url('../imgur.png');
     cursor: pointer;
 }
+.project5{
+    background-image: url('../dineout_img.png');
+    cursor: pointer;
+}
 /* Miscelaneous Activities photo */
 .misc1{
     background-image: url('../Box.jpg');

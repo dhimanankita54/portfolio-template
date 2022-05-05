@@ -173,10 +173,10 @@ button:focus {
   justify-content: center;
 }
 .project-card {
-  padding: 15px;
-  margin-left: 10%;
+  padding: 10px;
+  /* margin-left: 10%; */
   /* height: 550px; */
-  /* margin: auto; */
+  margin: auto;
   margin-top: 3%;
   box-shadow: rgba(17, 12, 46, 0.15) 0 48px 100px 0;
   border: 0.5px solid #eee;

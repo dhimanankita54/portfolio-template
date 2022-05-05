@@ -72,7 +72,7 @@ const skillsBar = [
   //   // svg: '',
   //   faClass: "fab fa-github",
   // },
- 
+
   // {
   //   name: "AWS",
   //   // svg: '',
@@ -98,7 +98,7 @@ const projects = [
     id: "project2",
     name: "COURSERA",
     des: "Coursera partners with universities and companies to bring job-relevant online learning to individuals and organizations worldwide. ",
-    skills: ["HTML, CSS, JS, API, Mongodb, Express"],
+    skills: ["HTML, CSS, JS, API, Mongodb, Express, Node.js"],
     view: "https://courseraclone-backend.herokuapp.com/",
     git: "https://github.com/dhimanankita54/coursera-backend"
   },
@@ -106,7 +106,7 @@ const projects = [
     // Add image in './styles/images.css' in #project3
     id: "project3",
     name: "IMDb",
-    des:"IMDb is an online database of information about films, TV series and streaming content – including cast and biographies, ratings and critical reviews.",
+    des: "IMDb is an online database of information about films, TV series and streaming content – including cast and biographies, ratings and critical reviews.",
     skills: ["HTML, CSS, JS, React"],
     git: "https://github.com/dhimanankita54/IMDB-Clone",
     view: "https://imdb-cloned.netlify.app/"
@@ -115,10 +115,19 @@ const projects = [
     // Add image in './styles/images.css' in #project3
     id: "project4",
     name: "Imgur",
-    des:"Imgur is an American online image sharing and image hosting service with a focus on social gossip.  The service has hosted viral images and memes, particularly those posted on Reddit.",
+    des: "Imgur is an American online image sharing and image hosting service with a focus on social gossip.  The service has hosted viral images and memes, particularly those posted on Reddit.",
     skills: ["HTML, CSS, Vanilla JS"],
     git: "https://github.com/dhimanankita54/Imgur",
     view: "https://imgur-mini-app.netlify.app"
+  },
+  {
+    // Add image in './styles/images.css' in #project3
+    id: "project5",
+    name: "Dineout",
+    des: "Dineout is an online table booking platform established for discovering the best and most suitable restaurants near users and to help them in easily booking reservations.",
+    skills: ["HTML, CSS, Vanilla JS, React, Redux, JSON"],
+    git: "https://github.com/dhimanankita54/mydineout-app",
+    view: "https://dineout-react-clone.netlify.app/"
   },
 ];
 // Edit your Miscellaneous Activities, its name and the url.
@@ -142,7 +151,7 @@ const miscellaneous = [
     // Add image in './styles/images.css' in #misc3
     id: "misc3",
     name: "IMDb- CLONE",
-    url: "https://medium.com/@dhimanankita54/imdb-clone-228074bacacc", 
+    url: "https://medium.com/@dhimanankita54/imdb-clone-228074bacacc",
   },
 ];
 // Contact form text, and Formspree link(to send a submit contact through their API as in contact.js)
